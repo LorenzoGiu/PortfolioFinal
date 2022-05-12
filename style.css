@@ -1,0 +1,179 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.subrayado{
+    text-decoration:underline;
+    
+}
+
+header{
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #666666;
+    
+}
+
+.titulo{
+    margin-top: 1rem;
+    font-size: 2rem ;
+    font-family: merriweather,serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+.texto{
+    margin-top:8rem;
+    height: 40rem;
+    width: 100%;
+
+}
+
+.nombre{
+    font-size: 2rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    font-family: merriweather,serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.portfolio{
+    width: 100%;
+    height: 98rem;
+    background-color: #A0AECD;
+    
+ 
+}
+
+.conocimientos{
+    height: 70rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.conocimientosTitulo{
+    font-size:2rem ;
+    margin-top: 4rem;
+    font-family: merriweather,serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.logo{
+    width: 15rem;
+    height: 15rem;
+
+}
+
+.imagen{
+    width:11.5rem;
+    height:11.5rem;
+}
+.bootstrap{
+    width:11.5rem;
+    height:11.5rem;
+}
+
+footer{
+    display: flex;
+    line-height: 10px;
+    justify-content: space-around;
+    color:#f7f7f7;
+    background-color: #666666;
+    letter-spacing: 3rem;
+    align-items: center;
+    height: 5rem;
+}
+
+@media only screen and (max-width:422px){
+    .portfolio{
+        height: 104rem;
+    }
+}
+
+@media only screen and (max-width:400px){
+    .portfolio{
+        height: 100rem;
+    }
+}
+
+@media only screen and (max-width:320px){
+    .portfolio{
+        height: 90rem;
+    }
+}
+
+@media only screen and (max-width:320px){
+    .portfolio{
+        height: 90rem;
+    }
+}
+@media only screen and (min-width:858px){
+    .portfolio{
+        height: 56rem;
+    }
+}
+
+@media only screen and (min-width:768px){
+    .conocimientos {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        align-content: space-around;
+    }
+    
+}
+
+@media only screen and (min-width:768px){
+    .conocimientos {
+        height: 35rem;
+    }
+    
+}
+
+@media only screen and (min-width:426px){
+    .nombre {
+      font-size: 3rem;
+
+    }
+    
+}
+
+@media only screen and (min-width:1040px){
+    .nombre {
+      font-size: 4rem;
+      float: left;
+      width: 60%;
+      align-items: center;
+      margin-top: 5.5rem;
+    }
+    .imagen{
+        float: right;
+        width: 20rem;
+        height: 20rem;
+        margin-right: 2.7rem;
+        
+    }
+    .bootstrap{
+        height: 12rem;
+        width: 12rem;
+    }
+    
+}
+@media only screen and (min-width:1441px){
+   .imagen{
+       width: 30rem;
+       height: 30rem;  
+   } 
+   .nombre{
+       font-size: 6rem;
+   }
+}
